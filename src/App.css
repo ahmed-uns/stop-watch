@@ -20,7 +20,7 @@ h1 {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   color: white;
   height: 60vb;
@@ -91,6 +91,10 @@ button {
 @media screen and (width<600px) {
   #keys-pad {
     width: 100%;
+    margin-top: 10px;
+  }
+  #time {
+    font-size: 80px;
   }
   #outer-box {
     width: 90%;
